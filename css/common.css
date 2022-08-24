@@ -1,0 +1,58 @@
+/* 여백제거 */
+*{
+     margin:0;
+     padding:0;
+}
+/* list */
+li{
+     list-style: none;
+}
+/* a */
+a{
+     text-decoration: none;
+     color:#666;
+}
+/* img */
+img{
+     vertical-align: top;
+}
+/* 기울기 */
+address,i,em{
+     font-style:normal;
+}
+/* cursor */
+button,label{
+     cursor:pointer;
+}
+/* blind */
+.blind{
+     position: absolute;
+     top:-99999px;
+}
+/* body */
+body{
+     font-family: 'Noto Sans KR', sans-serif;
+     font-size:13px;
+     color:#333;
+}
+/* clearFix::after */
+.clearFix::after{
+     content:"";
+     display: block;
+     clear:both;
+}
+/* skip */
+.skip>a{
+     position:absolute;
+     width:100%;
+     height:50px;
+     line-height: 50px;
+     text-align: center;
+     background: #333;
+     color:white;
+     font-size:20px;
+     top:-99999px;
+}
+.skip>a:focus{
+     top:0;
+}

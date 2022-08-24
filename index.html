@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>동물보호관리시스템</title>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="css/common.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="shortcut icon" href="images/favi.ico">
+     <link rel="stylesheet" href="css/slick.css">
+     <link rel="stylesheet" href="css/slick-theme.css">
+     <script src="js/jquery-3.6.0.min.js"></script>
+     <script src="js/slick.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="js/index.js"></script>
+</head>
+
+<body>
+     <header>
+          <div class="innerBox clearFix fixedBox">
+               <h1 class="logo"><a href="#void"><img src="images/logo_white.svg" alt="animal_shelter"></a></h1>
+               <ul id="nav">
+                    <li>
+                         <a href="#void">유기동물</a>
+                         <ul class="sub">
+                              <li><a href="#void">공고</a></li>
+                              <li><a href="#void">보호중 동물</a></li>
+                              <li><a href="#void">동물보호센터</a></li>
+                              <li><a href="#void">입양 안내</a></li>
+                              <li><a href="#void">습득시 안내</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="#void">실종동물</a>
+                         <ul class="sub">
+                              <li><a href="#void">분실신고</a></li>
+                              <li><a href="#void">분실시 안내</a></li>
+                              <li><a href="#void">분실 동물 목록</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="#void">동물등록</a>
+                         <ul class="sub">
+                              <li><a href="#void">동물등록제란?</a></li>
+                              <li><a href="#void">등록동물검색</a></li>
+                              <li><a href="#void">해외동물등록번호 조회</a></li>
+                              <li><a href="#void">등록대행업체</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="#void">정보마당</a>
+                         <ul class="sub">
+                              <li><a href="#void">일반정보</a></li>
+                              <li><a href="#void">건강정보</a></li>
+                              <li><a href="#void">동물보호 업무 부서</a></li>
+                              <li><a href="#void">온라인 민원신청</a></li>
+                              <li><a href="#void">동물등록 FAQ</a></li>
+                              <li><a href="#void">무선식별장치 공급업체</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="#void">정책홍보</a>
+                         <ul class="sub">
+                              <li><a href="#void">시스템 소개</a></li>
+                              <li><a href="#void">법령 및 정책</a></li>
+                              <li><a href="#void">교육안내</a></li>
+                              <li><a href="#void">동물보호 명예감시원</a></li>
+                              <li><a href="#void">정보공개</a></li>
+                              <li><a href="#void">공지사항</a></li>
+                              <li><a href="#void">홍보자료</a></li>
+                              <li><a href="#void">동물학대방지</a></li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="#void">찾아오는길</a>
+                    </li>
+               </ul>
+               <ul class="rightGnb">
+                    <li><a href="login.html"><span>로그인</span></a></li>
+                    <li><a href="login.html"><img class="user" src="images/user_white.svg" alt="유저"><span></span></a>
+                    </li>
+               </ul>
+               <div class="hamBox">
+                    <p class="hamBtn">
+                         <a href="#void">
+                              <img src="images/ham_white.svg" alt="햄버튼">
+                         </a>
+                    </p>
+               </div>
+          </div>
+     </header>
+     <div id="mainBanner">
+          <ul class="banner">
+               <li><video class="banner01" src="images/bannerVideo01.mp4" autoplay muted loop></video></li>
+               <li><video class="banner02" src="images/bannerVideo02.mp4" autoplay muted loop></video></li>
+          </ul>
+     </div>
+     <div id="container">
+          <section class="subBanner">
+               <div class="innerBox clearFix">
+                    <h2 class="blind">서브배너</h2>
+                    <div class="subBanner01 subBannerOverlap">
+                         <!-- <p><strong>유실&middot;유기동물</strong></p> -->
+                         <div class="subBtn"><a href="#void">더 알아보기</a></div>
+                         <h3 class="title">입양지원 안내</h3>
+                         <span>지자체 동물보호센터에서 보호하고 있는</span>
+                         <span>유실·유기동물을 반려의 목적으로 입양할 경우</span>
+                         <span>지원 받을 수 있습니다.</span>
+                         <img src="images/sub_banner01.png" alt="서브배너1">
+                    </div>
+                    <div class="subBanner02 subBannerOverlap">
+                         <div class="subBtn"><a href="#void">입양하기</a></div>
+                         <h3 class="title">입양을 기다리고 있어요!</h3>
+                         <span>소중한 생명!</span>
+                         <span>지금 여러분들의 선택을 기다리고 있습니다.</span>
+                         <img src="images/sub_Banner02_re.png" alt="서브배너2">
+                    </div>
+                    <div class="subBanner03 subBannerOverlap">
+                         <div class="subBtn"><a href="#void">더 알아보기</a></div>
+                         <h3 class="title">슬기로운 반려생활</h3>
+                         <span>동물사랑 배움터에서 시작하세요!</span>
+                         <img src="images/sub_banner03.png" alt="서브배너3">
+                    </div>
+                    <div class="subBanner04 subBannerOverlap">
+                         <div class="subBtn"><a href="#void">학대방지</a></div>
+                         <h3 class="title">동물학대 처벌 강화</h3>
+                         <div class="textBox04">
+                              <span>2021년 2월 12월부터</span>
+                              <span class="textYellow">동물학대 처벌이 강화</span>
+                              <span>됩니다!</span>
+                         </div>
+                         <img class="responsive" src="images/sub_banner04.png" alt="반응형 서브배너4">
+                         <img src="images/sub_banner04_fix.png" alt="서브배너4">
+                    </div>
+               </div>
+          </section>
+          <!-- 이미지 자르고 다시보기 -->
+          <section class="adoptWrap">
+               <h3 class="title">ADOPT ME!</h3>
+               <span>입양을 기다리고 있어요!</span>
+               <div class="adoptButton">
+                    <a href="#void">더보기</a>
+               </div>
+               <div class="firstUnderBanner">
+                    <div class="cardBox01 active">
+                         <div class="card card01">
+                              <div class="imgBox"><img src="images/subBanner01.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하나<br><span>1세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card02">
+                              <div class="imgBox"><img src="images/subBanner02.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>잭<br><span>4세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card03">
+                              <div class="imgBox"><img src="images/subBanner03.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>두리<br><span>3세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>(사)하얀비둘기</span></h3>
+                                             <h3>품종 <br><span>골든리트리버</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card04">
+                              <div class="imgBox"><img src="images/subBanner04.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>슈가<br><span>5세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>진돗개</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card05">
+                              <div class="imgBox"><img src="images/subBanner05.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하양<br><span>2세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>GD동물병원</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="cardBox01">
+                         <div class="card card06">
+                              <div class="imgBox"><img src="images/subBanner06.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>두나<br><span>5세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)서울수의사회</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card07">
+                              <div class="imgBox"><img src="images/subBanner07.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>점박이<br><span>1세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>서울동물병원</span></h3>
+                                             <h3>품종 <br><span>보더콜리</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card08">
+                              <div class="imgBox"><img src="images/subBanner08.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>나나<br><span>3세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>(사)하얀비둘기</span></h3>
+                                             <h3>품종 <br><span>골든리트리버</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card09">
+                              <div class="imgBox"><img src="images/subBanner09.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>보스<br><span>4세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>(사)인천수의사회</span></h3>
+                                             <h3>품종 <br><span>페르시안블루</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card10">
+                              <div class="imgBox"><img src="images/subBanner10.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>잭<br><span>2세가량</span></h2>
+                                        <div class="data">
+                                             <!-- <h3>이름 <br><span>두리</span></h3> -->
+                                             <h3>보호소 <br><span>안양동물병원</span></h3>
+                                             <h3>품종 <br><span>셰퍼드</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="arrow">
+                    <a href="#void"><img class="arrowLeft arrowBtn" src="images/arrow_empty01.svg" alt="화살표1"></a>
+                    <a href="#void"><img class="arrowRight arrowBtn" src="images/arrow_empty02.svg" alt="화살표2"></a>
+               </div>
+          </section>
+          <section class="adoptWrapSub">
+               <div class="innerBox">
+                    <div class="adoptWrapSubText">
+                         <h3 class="title">Adopt a Pet<br>
+                              Save Life</h3>
+                         <p>반려견 사지 말고 입양하세요!<br>
+                              소중한 생명을 지켜주세요!</p>
+                         <span>매년 약 12만 마리의 유기견이 버려집니다. <br>
+                              40%는 보호소에서 사망합니다. 반려견은 장난감이 아닙니다. <br>
+                              입양은 신중하게 생각해주세요.</span>
+                         <div><a href="#void">입양하기</a></div>
+                    </div>
+                    <div class="subImg"></div>
+               </div>
+          </section>
+          <!-- 이미지 자르고 다시보기 -->
+          <section class="findWrap">
+               <h3 class="title">FIND ME!</h3>
+               <span>주인을 기다리고 있어요!</span>
+               <div class="adoptButton">
+                    <a href="#void">더보기</a>
+               </div>
+               <div class="secondUnderBanner">
+                    <div class="cardBox02 active">
+                         <div class="card card01">
+                              <div class="imgBox"><img src="images/findme_subBanner01.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하나<br><span>1세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card02">
+                              <div class="imgBox"><img src="images/findme_subBanner02.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>잭<br><span>4세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>믹스견</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card03">
+                              <div class="imgBox"><img src="images/findme_subBanner03.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>두리<br><span>3세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)하얀비둘기</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card04">
+                              <div class="imgBox"><img src="images/findme_subBanner04.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>알수없음<br><span>유아</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>고양이</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card05">
+                              <div class="imgBox"><img src="images/findme_subBanner05.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하양<br><span>2세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>GD동물병원</span></h3>
+                                             <h3>품종 <br><span>셰퍼드</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="cardBox02">
+                         <div class="card card06">
+                              <div class="imgBox"><img src="images/findme_subBanner06.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하나<br><span>1세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card07">
+                              <div class="imgBox"><img src="images/findme_subBanner07.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>잭<br><span>4세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>믹스견</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card08">
+                              <div class="imgBox"><img src="images/findme_subBanner08.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>두리<br><span>3세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)하얀비둘기</span></h3>
+                                             <h3>품종 <br><span>코리안숏헤어</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card09">
+                              <div class="imgBox"><img src="images/findme_subBanner09.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>알수없음<br><span>5세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>(사)대구수의사회</span></h3>
+                                             <h3>품종 <br><span>고양이</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="card card10">
+                              <div class="imgBox"><img src="images/findme_subBanner10.jpg" alt=""></div>
+                              <div class="content">
+                                   <div class="details">
+                                        <h2>하양<br><span>2세가량</span></h2>
+                                        <div class="data">
+                                             <h3>보호소 <br><span>GD동물병원</span></h3>
+                                             <h3>품종 <br><span>셰퍼드</span></h3>
+                                        </div>
+                                        <div class="actionBtn">
+                                             <a href="#">입양하기</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="arrow">
+                    <a href="#void"><img class="arrowLeft02 arrowBtn" src="images/arrow_empty01.svg" alt="화살표1"></a>
+                    <a href="#void"><img class="arrowRight02 arrowBtn" src="images/arrow_empty02.svg" alt="화살표2"></a>
+               </div>
+          </section>
+          <section class="boxMenu">
+               <div class="innerBox">
+                    <h3 class="blind">동물보호 관리시스템 서브 메뉴</h3>
+                    <img class="animalImg" src="images/boxMenu_background.png" alt="동물이미지">
+                    <div class="freMenuBox">
+                         <p><strong>동물보호관리시스템</strong>에서</p>
+                         <p>동물등록, 반려동물의 사망신고와 실종신고까지!</p>
+                         <span>여러분과 반려동물의 행복한 생활을 도와드립니다!</span>
+                    </div>
+                    <ul class="freMenuSub">
+                         <li class="freMenu01">
+                              <img class="search" src="images/search.svg" alt="돋보기 아이콘">
+                              <p>동물등록 FAQ</p>
+                              <div><a href="#void">바로가기</a></div>
+                         </li>
+                         <li class="freMenu02">
+                              <img class="text" src="images/text.svg" alt="텍스트 아이콘">
+                              <p>반려동물 분실신고</p>
+                              <div><a href="#void">바로가기</a></div>
+                         </li>
+                         <li class="freMenu03">
+                              <img class="text" src="images/text.svg" alt="텍스트 아이콘">
+                              <p>반려동물 사망신고</p>
+                              <div><a href="#void">바로가기</a></div>
+                         </li>
+                         <li class="freMenu04">
+                              <img class="cat_dog" src="images/cat_dog.svg" alt="동물 아이콘">
+                              <p>입양하기</p>
+                              <div><a href="#void">바로가기</a></div>
+                         </li>
+                    </ul>
+               </div>
+          </section>
+          <section class="shelterWrap">
+               <div class="innerBox">
+                    <h3 class="title">Animal Protection Center</h3>
+                    <p>동물보호센터 안내</p>
+                    <div><a href="#void">더보기</a></div>
+                    <ul class="shelterList">
+                         <!-- <li class="leftIcon"><a href="#void"><img src="images/animal_shelter.svg" alt="동물보호소"></a></li> -->
+                         <li>
+                              <a href="#void">
+                                   <p class="listBox">(사)하얀비둘기</p>
+                              </a>
+                              <span><strong>구역: </strong>부산광역시 사하구</span>
+                              <span><strong>전화번호: </strong>051-293-9779</span>
+                              <span><strong>주소: </strong>부산광역시 강서구 제도로 726(강동동)</span>
+
+                         </li>
+
+                         <li>
+                              <a href="#void">
+                                   <p class="listBox">(사)대구수의사회</p>
+                              </a>
+                              <span><strong>구역: </strong>대구광역시 수성구</span>
+                              <span><strong>전화번호: </strong>053-764-3708</span>
+                              <span><strong>주소: </strong> 대구광역시 북구 호북로 229(서번동) 6층</span>
+
+                         </li>
+                         <li>
+                              <a href="#void">
+                                   <p class="listBox">21세기동물병원</p>
+                              </a>
+                              <span><strong>구역: </strong>서울특별시 용산구</span>
+                              <span><strong>전화번호: </strong>02-749-6750</span>
+                              <span><strong>주소: </strong>서울특별시 용산구 보광동 259-1</span>
+
+                         </li>
+                         <li>
+                              <a href="#void">
+                                   <p class="listBox">가온동물병원</p>
+                              </a>
+                              <span><strong>구역: </strong>경기도 파주시</span>
+                              <span><strong>전화번호: </strong>031-945-7552</span>
+                              <span><strong>주소: </strong>경기도 파주시 가온로 116(목동동)</span>
+
+                         </li>
+                    </ul>
+               </div>
+          </section>
+     </div>
+     <footer>
+          <div class="footTop clearFix">
+               <div class="innerBox">
+                    <ul class="footNav">
+                         <li><a href="#void">시스템</a></li>
+                         <li><a href="#void">저작권 정책</a></li>
+                         <li><a href="#void">이용안내</a></li>
+                         <li><a href="#void">개인정보처리방침</a></li>
+                    </ul>
+               </div>
+          </div>
+          <div class="footBottom">
+               <div class="innerBox">
+                    <h4 class="logo2"><a href="#void"><img src="images/logo_black.svg" alt="로고"></a></h4>
+                    <address>
+                         <div class="leftAddress">
+                              <p>39660 경상북도 김천시 혁신8로 177(율곡동)</p>
+                              <p><strong>1577-0954</strong></p>
+                              <p>(시스템 장애 시 054-810-8613)</p>
+                              <span class="addressLine">Copyright by Animal and Plant Quarantine Agency.</span>
+                              <span>All Rights Reserved.</span>
+                         </div>
+                         <div class="rightAddress">
+                              <ul>
+                                   <li><a href="#void"><img class="kakao" src="images/kakao.svg" alt="카카오"></a></li>
+                                   <li><a href="#void"><img class="blog" src="images/blog.svg" alt="블로그"></a></li>
+                                   <li><a href="#void"><img class="facebook" src="images/facebook.svg" alt="페이스북"></a>
+                                   </li>
+                                   <li><a href="#void"><img class="instagram" src="images/instagram.svg"
+                                                  alt="인스타그램"></a></li>
+                              </ul>
+                         </div>
+                    </address>
+               </div>
+          </div>
+     </footer>
+</body>
+
+</html>
