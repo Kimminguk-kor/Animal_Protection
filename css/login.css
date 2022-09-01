@@ -46,9 +46,7 @@ body{
  .emailCheck {
      display: inline-block;
      width:60%;
-     /* padding-bottom: 20px; */
      text-align: left;    
-     /* border:1px solid hotpink; */
  }
  
  input[type="checkbox"] {
@@ -135,7 +133,6 @@ body{
     .rightBtn>li a{
         display: inline-block;
         font-size:12px;
-        /* padding-top:-50px; */
     }
 }
 @media screen and (max-width:380px) {
