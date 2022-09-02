@@ -1264,7 +1264,7 @@ footer .innerBox {
     transform: translateX(-50%);
   }
   .card {
-    width: calc(100% / 4);
+    width: calc(100% / 5);
   }
   .cardBox01,
   .cardBox02 {
@@ -1379,7 +1379,6 @@ footer .innerBox {
     .hamBox{
       top:2%;
     }
-
     #nav:hover .sub {
       width: 120px;
     }
