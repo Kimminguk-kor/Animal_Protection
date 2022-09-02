@@ -1362,20 +1362,22 @@ footer .innerBox {
     }
 
     .user {
-      width: 15px;
-      margin-top: 10%;
+      width: 25px;
     }
 
-    .rightGnb > li {
+    .rightGnb > li:first-child {
       display: none;
     }
 
     .rightGnb > li {
-      padding: 30px 0 30px 20px;
+      padding-top:25px;
     }
 
     .rightGnb a {
       font-size: 10px;
+    }
+    .hamBox{
+      top:2%;
     }
 
     #nav:hover .sub {
