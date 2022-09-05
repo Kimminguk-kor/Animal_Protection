@@ -1369,22 +1369,18 @@ footer .innerBox {
       display: none;
     }
 
-    .rightGnb > li {
-      padding-top:25px;
-    }
-
     .rightGnb a {
       font-size: 10px;
     }
-    .hamBox{
-      top:2%;
+    .hamBox {
+      top: 2%;
     }
     #nav:hover .sub {
-      width: 120px;
+      width: 100%;
     }
 
     .innerBox #nav > li {
-      width: 40%;
+      width: 100%;
     }
     #nav > li > a {
       padding: 0;
@@ -1509,7 +1505,7 @@ footer .innerBox {
       display: inline-block;
     }
     .footNav > li > a {
-      font-size: 10px;
+      font-size: 11px;
       letter-spacing: -0.5px;
     }
     .footBottom .logo2 {
@@ -1518,14 +1514,20 @@ footer .innerBox {
     .footBottom .logo2 > a > img {
       width: 160px;
     }
+    .footBottom address .leftAddress {
+      padding-left: 5px;
+    }
     .footBottom address .leftAddress p {
-      font-size: 15px;
+      font-size: 13px;
     }
     .footBottom address .leftAddress p:nth-child(3) {
       margin-bottom: -20px;
     }
     .footBottom address .leftAddress span {
       font-size: 12px;
+    }
+    .footBottom address .rightAddress {
+      right: 2%;
     }
     .footBottom .rightAddress img {
       width: 25px;

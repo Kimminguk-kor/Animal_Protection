@@ -17,7 +17,7 @@ $(function () {
       $("#nav").css("display", "none");
     }
   });
-  
+
   let adoptShowBanner = 0;
 
   let liWidth = $(".cardBox01>.card").width();
@@ -66,8 +66,8 @@ $(function () {
     adoptShowBanner--;
     moveBanner();
   });
-  
-  let findShowBanner = 0; 
+
+  let findShowBanner = 0;
 
   let liWidthFind = $(".cardBox02>.card").width();
 
