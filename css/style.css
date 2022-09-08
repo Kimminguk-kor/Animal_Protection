@@ -23,18 +23,18 @@ header {
   margin-left: 70px;
 }
 
-#nav > li {
+#nav>li {
   float: left;
   position: relative;
   top: 10px;
   padding: 15px 30px 0;
 }
 
-#nav > li a:hover {
+#nav>li a:hover {
   color: #ccc;
 }
 
-#nav > li > a {
+#nav>li>a {
   font-size: 18px;
   font-weight: 400;
   color: white;
@@ -44,7 +44,7 @@ header {
   float: right;
 }
 
-.rightGnb > li {
+.rightGnb>li {
   float: left;
   padding: 30px 10px 0;
 }
@@ -54,7 +54,7 @@ header {
   font-size: 14px;
 }
 
-.rightGnb > li:hover a {
+.rightGnb>li:hover a {
   color: #7c7c7c;
 }
 
@@ -70,19 +70,19 @@ header {
   text-align: center;
 }
 
-.sub > li {
+.sub>li {
   position: relative;
   padding-top: 20px;
 }
 
-.sub > li > a {
+.sub>li>a {
   color: white;
   letter-spacing: -1px;
   font-weight: 300;
   font-size: 14px;
 }
 
-.sub > li > a:hover {
+.sub>li>a:hover {
   color: #333;
 }
 
@@ -121,7 +121,7 @@ header {
   margin: 80px 0;
 }
 
-.subBanner > .innerBox {
+.subBanner>.innerBox {
   position: relative;
 }
 
@@ -131,11 +131,11 @@ header {
   box-sizing: border-box;
 }
 
-.subBannerOverlap > p {
+.subBannerOverlap>p {
   font-size: 28px;
 }
 
-.subBannerOverlap > .title {
+.subBannerOverlap>.title {
   font-size: 34px;
   margin: 10px 0 15px 0;
   letter-spacing: -1px;
@@ -143,7 +143,7 @@ header {
   text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.subBannerOverlap > span {
+.subBannerOverlap>span {
   display: block;
   font-size: 16px;
   font-weight: 500;
@@ -151,11 +151,11 @@ header {
   margin-left: 5px;
 }
 
-.subBanner01 > span {
+.subBanner01>span {
   margin: 5px 0;
 }
 
-.subBannerOverlap > .subBtn {
+.subBannerOverlap>.subBtn {
   width: 140px;
   height: 35px;
   border-radius: 20px;
@@ -165,24 +165,24 @@ header {
   position: relative;
 }
 
-.subBannerOverlap > .subBtn > a {
+.subBannerOverlap>.subBtn>a {
   z-index: 100;
 }
 
-.subBanner01 > .subBtn,
-.subBanner02 > .subBtn {
+.subBanner01>.subBtn,
+.subBanner02>.subBtn {
   background: #8998ab;
 }
 
-.subBanner03 > .subBtn {
+.subBanner03>.subBtn {
   background: #cac9c9;
 }
 
-.subBanner04 > .subBtn {
+.subBanner04>.subBtn {
   background: #9c9c9c;
 }
 
-.subBannerOverlap > .subBtn > a:hover {
+.subBannerOverlap>.subBtn>a:hover {
   color: #ccc;
   z-index: 100;
   font-weight: 700;
@@ -207,7 +207,7 @@ header {
   transform: translateX(-50%) scale(1.5);
 }
 
-.subBannerOverlap > .subBtn > a {
+.subBannerOverlap>.subBtn>a {
   color: white;
   position: relative;
   font-size: 16px;
@@ -217,20 +217,20 @@ header {
   margin-right: 10px;
 }
 
-.subBanner > .innerBox > div {
+.subBanner>.innerBox>div {
   float: left;
   width: 360px;
   height: 360px;
   position: relative;
 }
 
-.subBanner > .innerBox > .subBanner01 {
+.subBanner>.innerBox>.subBanner01 {
   width: 440px;
   height: 680px;
   background: #cbd0d5;
 }
 
-.subBanner > .innerBox > .subBanner02 {
+.subBanner>.innerBox>.subBanner02 {
   width: 735px;
   height: 300px;
   background: #c6ced1;
@@ -238,30 +238,30 @@ header {
   margin-bottom: 20px;
 }
 
-.subBanner > .innerBox > .subBanner03 {
+.subBanner>.innerBox>.subBanner03 {
   background: #dddcdc;
 }
 
-.subBanner > .innerBox > .subBanner04 {
+.subBanner>.innerBox>.subBanner04 {
   background: #ccc;
   margin-right: 0;
 }
 
-.subBanner01 > img {
+.subBanner01>img {
   position: absolute;
   bottom: 0%;
   left: 7%;
 }
 
-.subBanner02 > img {
+.subBanner02>img {
   position: absolute;
   width: 34%;
   bottom: 0;
   right: 5%;
 }
 
-.subBanner03 > img,
-.subBanner04 > img {
+.subBanner03>img,
+.subBanner04>img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -282,9 +282,10 @@ header {
   color: white;
 }
 
-.subBanner04 .textBox04 > .textYellow {
+.subBanner04 .textBox04>.textYellow {
   color: #ebf277;
 }
+
 .adoptWrap,
 .findWrap {
   position: relative;
@@ -294,6 +295,7 @@ header {
   max-height: 100%;
   overflow: hidden;
 }
+
 .findWrap h3,
 .adoptWrap h3 {
   padding-top: 40px;
@@ -302,13 +304,13 @@ header {
   font-weight: 900;
 }
 
-.findWrap > span,
-.adoptWrap > span {
+.findWrap>span,
+.adoptWrap>span {
   font-size: 20px;
 }
 
-.findWrap > .adoptButton,
-.adoptWrap > .adoptButton {
+.findWrap>.adoptButton,
+.adoptWrap>.adoptButton {
   margin-top: 20px;
   width: 150px;
   height: 40px;
@@ -322,12 +324,13 @@ header {
   transform: translateX(-50%);
 }
 
-.findWrap > .adoptButton > a,
-.adoptWrap > .adoptButton > a {
+.findWrap>.adoptButton>a,
+.adoptWrap>.adoptButton>a {
   font-size: 16px;
   color: white;
   z-index: 100;
 }
+
 .firstUnderBanner,
 .secondUnderBanner {
   max-width: 1920px;
@@ -338,12 +341,14 @@ header {
   padding-top: 115px;
   position: relative;
 }
+
 .cardBox01,
 .cardBox02 {
   position: relative;
   width: 250%;
   margin-left: -13%;
 }
+
 .card {
   float: left;
   position: relative;
@@ -454,9 +459,11 @@ header {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
 .actionBtn a {
   color: #fff;
 }
+
 .arrow .arrowLeft,
 .arrow .arrowLeft02 {
   position: absolute;
@@ -470,6 +477,7 @@ header {
   top: 55%;
   right: 0;
 }
+
 .adoptWrapSub {
   position: relative;
   padding: 100px 0;
@@ -491,19 +499,19 @@ header {
   left: -8%;
 }
 
-.adoptWrapSubText > h3 {
+.adoptWrapSubText>h3 {
   font-size: 60px;
   font-weight: 700;
   line-height: 1;
 }
 
-.adoptWrapSubText > p {
+.adoptWrapSubText>p {
   font-size: 30px;
   font-weight: 300;
   margin: 30px 0;
 }
 
-.adoptWrapSubText > span {
+.adoptWrapSubText>span {
   font-size: 18px;
   font-weight: 100;
   opacity: 0.8;
@@ -521,12 +529,12 @@ header {
   margin: 30px 0;
 }
 
-.adoptWrapSubText div > a {
+.adoptWrapSubText div>a {
   color: white;
   line-height: 40px;
 }
 
-.boxMenu > .innerBox {
+.boxMenu>.innerBox {
   position: relative;
   color: #333;
 }
@@ -537,19 +545,19 @@ header {
   left: 50%;
 }
 
-.boxMenu .freMenuBox > p > strong {
+.boxMenu .freMenuBox>p>strong {
   color: #2455c5;
   font-size: 54px;
   font-weight: 500;
 }
 
-.boxMenu .freMenuBox > p {
+.boxMenu .freMenuBox>p {
   font-size: 30px;
   font-weight: 500;
   color: #555;
 }
 
-.boxMenu .freMenuBox > span {
+.boxMenu .freMenuBox>span {
   display: block;
   margin-top: 25px;
   font-size: 20px;
@@ -564,11 +572,11 @@ header {
   margin-top: 70px;
 }
 
-.freMenuSub > li {
+.freMenuSub>li {
   position: relative;
 }
 
-.boxMenu .freMenuSub > li {
+.boxMenu .freMenuSub>li {
   width: 22%;
   border: 2px solid #ccc;
   box-sizing: border-box;
@@ -577,7 +585,7 @@ header {
   padding: 45px 0;
 }
 
-.freMenuSub > li > p {
+.freMenuSub>li>p {
   font-size: 24px;
   font-weight: 500;
   padding-top: 15px;
@@ -592,12 +600,12 @@ header {
   bottom: -7.5%;
 }
 
-.freMenuSub > li > div > a {
+.freMenuSub>li>div>a {
   color: white;
   line-height: 33px;
 }
 
-.freMenuSub > li > div {
+.freMenuSub>li>div {
   left: 50%;
   transform: translateX(-50%);
 }
@@ -608,24 +616,24 @@ header {
   position: relative;
 }
 
-.shelterWrap > .innerBox {
+.shelterWrap>.innerBox {
   text-align: center;
   position: relative;
   height: 600px;
   margin-top: 5%;
 }
 
-.shelterWrap > .innerBox > h3 {
+.shelterWrap>.innerBox>h3 {
   font-size: 26px;
   padding-top: 30px;
 }
 
-.shelterWrap > .innerBox > p {
+.shelterWrap>.innerBox>p {
   font-size: 22px;
   font-weight: 300;
 }
 
-.shelterWrap > .innerBox > div {
+.shelterWrap>.innerBox>div {
   width: 125px;
   height: 30px;
   background: #333;
@@ -637,7 +645,7 @@ header {
   margin-top: 2%;
 }
 
-.shelterWrap > .innerBox > div > a {
+.shelterWrap>.innerBox>div>a {
   color: white;
 }
 
@@ -649,7 +657,7 @@ header {
   word-break: keep-all;
 }
 
-.shelterList > li {
+.shelterList>li {
   border: 1px solid #ccc;
   width: 25%;
   padding: 30px;
@@ -668,7 +676,7 @@ header {
   display: block;
 }
 
-.shelterWrap .arrow > a > .arrow1 {
+.shelterWrap .arrow>a>.arrow1 {
   position: absolute;
   left: 3%;
   top: 60%;
@@ -676,13 +684,14 @@ header {
   transform: translateY(-50%);
 }
 
-.shelterWrap .arrow > a > .arrow2 {
+.shelterWrap .arrow>a>.arrow2 {
   position: absolute;
   right: 3%;
   top: 60%;
   padding: 8px;
   transform: translateY(-50%);
 }
+
 footer .innerBox {
   position: relative;
 }
@@ -751,7 +760,7 @@ footer .innerBox {
   font-weight: 400;
 }
 
-.footBottom address .leftAddress > span {
+.footBottom address .leftAddress>span {
   display: block;
   font-size: 14px;
   font-weight: 700;
@@ -781,9 +790,11 @@ footer .innerBox {
 .arrow2 {
   width: 25px;
 }
+
 .arrowBtn {
   width: 20px;
 }
+
 .search {
   width: 85px;
 }
@@ -835,6 +846,7 @@ footer .innerBox {
 
 /*   반응형   */
 @media screen and (max-width: 1750px) {
+
   .banner01,
   .banner02 {
     width: 100%;
@@ -862,20 +874,22 @@ footer .innerBox {
     width: 100%;
   }
 
-  #nav > li:hover .sub {
+  #nav>li:hover .sub {
     display: block;
     background: #0071ce;
   }
-  #nav > li .sub > li {
+
+  #nav>li .sub>li {
     top: 0;
     background: #0071ce;
     width: 100%;
   }
-  #nav > li .sub > li > a {
+
+  #nav>li .sub>li>a {
     font-size: 13px;
   }
 
-  .innerBox #nav > li {
+  .innerBox #nav>li {
     border-bottom: 1px solid #ddd;
     width: 100%;
     left: 50%;
@@ -884,12 +898,13 @@ footer .innerBox {
     top: 0;
     padding: 10px 15px;
   }
-  #nav > li:last-child {
+
+  #nav>li:last-child {
     border: 0;
     padding-bottom: 10px;
   }
 
-  #nav > li > a {
+  #nav>li>a {
     color: white;
     padding: 10px 20px;
     font-size: 15px;
@@ -911,10 +926,12 @@ footer .innerBox {
     position: static;
     box-sizing: border-box;
   }
+
   .sub {
     padding: 0;
   }
-  .sub > li {
+
+  .sub>li {
     left: 50%;
     margin: 0;
     padding: 0;
@@ -922,9 +939,10 @@ footer .innerBox {
     width: 100%;
   }
 
-  .sub > li > a {
+  .sub>li>a {
     font-size: 16px;
   }
+
   .hamBox {
     position: fixed;
     top: 1%;
@@ -934,6 +952,7 @@ footer .innerBox {
     border-radius: 10px;
     z-index: 1000;
   }
+
   .hamBtn {
     display: block;
   }
@@ -947,35 +966,35 @@ footer .innerBox {
     display: inline-block;
   }
 
-  .subBannerOverlap > p {
+  .subBannerOverlap>p {
     font-size: 20px;
   }
 
-  .subBannerOverlap > .title {
+  .subBannerOverlap>.title {
     font-size: 28px;
     margin: 10px 0 10px 0;
   }
 
-  .subBannerOverlap > span {
+  .subBannerOverlap>span {
     font-size: 15px;
     word-break: keep-all;
   }
 
-  .subBanner02 > h3 {
+  .subBanner02>h3 {
     padding: 10px 0;
   }
 
-  .subBanner01 > img {
+  .subBanner01>img {
     width: 54%;
     left: 28%;
   }
 
-  .subBanner02 > img {
+  .subBanner02>img {
     width: 51%;
     right: 5%;
   }
 
-  .subBanner03 > img {
+  .subBanner03>img {
     width: 33%;
   }
 
@@ -984,35 +1003,35 @@ footer .innerBox {
     width: 28%;
   }
 
-  .subBanner03 > span,
-  .subBanner04 > .textBox04,
-  .subBanner04 > img {
+  .subBanner03>span,
+  .subBanner04>.textBox04,
+  .subBanner04>img {
     display: none;
   }
 
-  .subBannerOverlap > .subBtn {
+  .subBannerOverlap>.subBtn {
     width: 110px;
     height: 30px;
     font-size: 14px;
     line-height: 30px;
   }
 
-  .subBannerOverlap > .subBtn a {
+  .subBannerOverlap>.subBtn a {
     font-size: 14px;
   }
 
-  .subBanner01 > .subBtn {
+  .subBanner01>.subBtn {
     margin-top: 4px;
   }
 
-  .subBanner > .innerBox > .subBanner01,
-  .subBanner > .innerBox > .subBanner02 {
+  .subBanner>.innerBox>.subBanner01,
+  .subBanner>.innerBox>.subBanner02 {
     width: 48.5%;
     height: 460px;
   }
 
-  .subBanner > .innerBox > .subBanner03,
-  .subBanner > .innerBox > .subBanner04 {
+  .subBanner>.innerBox>.subBanner03,
+  .subBanner>.innerBox>.subBanner04 {
     width: 48.5%;
     height: 220px;
   }
@@ -1024,8 +1043,8 @@ footer .innerBox {
     font-size: 36px;
   }
 
-  .findWrap > span,
-  .adoptWrap > span {
+  .findWrap>span,
+  .adoptWrap>span {
     font-size: 18px;
   }
 
@@ -1036,21 +1055,24 @@ footer .innerBox {
     line-height: 28px;
   }
 
-  .findWrap .adoptButton > a,
-  .adoptWrap .adoptButton > a {
+  .findWrap .adoptButton>a,
+  .adoptWrap .adoptButton>a {
     font-size: 14px;
   }
 
   .textBox {
     top: 38%;
   }
+
   .card {
     width: calc(100% / 7);
   }
+
   .cardBox01,
   .cardBox02 {
     margin-left: -5%;
   }
+
   /*--------------------------- adoptWrapSub ---------------------------*/
   .adoptWrapSub .adoptWrapSubText {
     padding: 50px 0 50px 400px;
@@ -1065,15 +1087,15 @@ footer .innerBox {
     margin-left: 15px;
   }
 
-  .adoptWrapSubText > h3 {
+  .adoptWrapSubText>h3 {
     font-size: 50px;
   }
 
-  .adoptWrapSubText > p {
+  .adoptWrapSubText>p {
     font-size: 25px;
   }
 
-  .adoptWrapSubText > span {
+  .adoptWrapSubText>span {
     font-size: 15px;
   }
 
@@ -1084,23 +1106,23 @@ footer .innerBox {
     height: 40px;
   }
 
-  .boxMenu .freMenuBox > p > strong {
+  .boxMenu .freMenuBox>p>strong {
     font-size: 44px;
   }
 
-  .boxMenu .freMenuBox > p {
+  .boxMenu .freMenuBox>p {
     font-size: 24px;
   }
 
-  .boxMenu .freMenuBox > span {
+  .boxMenu .freMenuBox>span {
     font-size: 17px;
   }
 
-  .boxMenu .freMenuSub > li {
+  .boxMenu .freMenuSub>li {
     padding: 30px 0 40px;
   }
 
-  .freMenuSub > li > p {
+  .freMenuSub>li>p {
     font-size: 20px;
   }
 
@@ -1109,7 +1131,7 @@ footer .innerBox {
     height: 30px;
   }
 
-  .freMenuSub > li > div > a {
+  .freMenuSub>li>div>a {
     line-height: 30px;
   }
 
@@ -1119,10 +1141,11 @@ footer .innerBox {
   }
 
   /*--------------------------- shelterList ---------------------------*/
-  .shelterWrap .arrow > a > .arrow1 {
+  .shelterWrap .arrow>a>.arrow1 {
     left: 0;
   }
-  .shelterWrap .arrow > a > .arrow2 {
+
+  .shelterWrap .arrow>a>.arrow2 {
     right: 0;
   }
 
@@ -1137,41 +1160,42 @@ footer .innerBox {
     top: 25%;
   }
 
-  .boxMenu .freMenuBox > p > strong {
+  .boxMenu .freMenuBox>p>strong {
     font-size: 36px;
   }
 
-  .boxMenu .freMenuBox > p {
+  .boxMenu .freMenuBox>p {
     font-size: 18px;
   }
 
-  .boxMenu .freMenuBox > span {
+  .boxMenu .freMenuBox>span {
     font-size: 15px;
   }
 
-  .freMenuSub > li > p {
+  .freMenuSub>li>p {
     font-size: 17px;
   }
 
-  .boxMenu > .innerBox {
+  .boxMenu>.innerBox {
     height: 100%;
   }
 
-  .shelterWrap > .innerBox {
+  .shelterWrap>.innerBox {
     height: 100%;
     margin-top: 50px;
   }
 
-  .shelterWrap .arrow > a > .arrow1,
-  .shelterWrap .arrow > a > .arrow2 {
+  .shelterWrap .arrow>a>.arrow1,
+  .shelterWrap .arrow>a>.arrow2 {
     top: 70%;
   }
+
   .shelterList {
     flex-wrap: wrap;
     margin: 30px 0;
   }
 
-  .shelterList > li {
+  .shelterList>li {
     padding: 30px;
     width: 40%;
     margin: 50px 10px 0 10px;
@@ -1180,12 +1204,14 @@ footer .innerBox {
   .shelterList li a {
     letter-spacing: 0;
   }
+
   /*--------------------------- footTop ---------------------------*/
   .footTop .footNav {
     display: flex;
     width: 100%;
     justify-content: space-around;
   }
+
   .footBottom .innerBox {
     position: relative;
     height: 350px;
@@ -1201,25 +1227,27 @@ footer .innerBox {
     bottom: 35%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .subBanner {
     margin: 0 10px;
   }
 
-  .subBannerOverlap > .title {
+  .subBannerOverlap>.title {
     font-size: 24px;
   }
 
-  .subBannerOverlap > span {
+  .subBannerOverlap>span {
     display: none;
   }
 
-  .subBanner > .innerBox > .subBanner03,
-  .subBanner > .innerBox > .subBanner04 {
+  .subBanner>.innerBox>.subBanner03,
+  .subBanner>.innerBox>.subBanner04 {
     width: 48.5%;
   }
-  .subBanner > .innerBox > .subBanner01,
-  .subBanner > .innerBox > .subBanner02 {
+
+  .subBanner>.innerBox>.subBanner01,
+  .subBanner>.innerBox>.subBanner02 {
     width: 48.5%;
     height: 260px;
   }
@@ -1228,13 +1256,16 @@ footer .innerBox {
     padding: 30px;
     margin: 0 1%;
   }
-  .subBanner > .innerBox > .subBanner01,
-  .subBanner > .innerBox > .subBanner03 {
+
+  .subBanner>.innerBox>.subBanner01,
+  .subBanner>.innerBox>.subBanner03 {
     margin-right: 3%;
   }
+
   .subBanner .subBannerOverlap {
     margin: 0;
   }
+
   .subBanner .subBannerOverlap h3 {
     font-size: 20px;
   }
@@ -1263,14 +1294,17 @@ footer .innerBox {
     margin-left: 50%;
     transform: translateX(-50%);
   }
+
   .card {
     width: calc(100% / 5);
   }
+
   .cardBox01,
   .cardBox02 {
     margin-left: -0%;
   }
-  .shelterWrap > .innerBox {
+
+  .shelterWrap>.innerBox {
     height: 100%;
   }
 
@@ -1286,7 +1320,7 @@ footer .innerBox {
     display: none;
   }
 
-  .boxMenu > .innerBox {
+  .boxMenu>.innerBox {
     height: 100%;
   }
 
@@ -1297,10 +1331,12 @@ footer .innerBox {
     left: 50%;
     transform: translateX(-50%);
   }
+
   .adoptWrap,
   .findWrap {
     height: 700px;
   }
+
   .boxMenu .freMenuBox {
     position: static;
     padding-top: 250px;
@@ -1311,45 +1347,56 @@ footer .innerBox {
     flex-wrap: wrap;
   }
 
-  .boxMenu .freMenuSub > li {
+  .boxMenu .freMenuSub>li {
     width: 40%;
     margin: 15px;
   }
+
   @media screen and (max-width: 588px) {
     .boxMenu .animalImg {
       width: 70%;
     }
-    .shelterList > li {
+
+    .shelterList>li {
       width: 43%;
     }
+
     .shelterList li a {
       font-size: 13px;
       font-weight: 600;
     }
   }
+
   @media screen and (max-width: 500px) {
+
     .findWrap li,
     .adoptWrap li {
       margin-left: 50%;
       transform: translateX(-50%);
     }
+
     .findWrap li:nth-child(2),
     .adoptWrap li:nth-child(2) {
       display: none;
     }
-    .adoptWrapSubText > p {
+
+    .adoptWrapSubText>p {
       font-size: 22px;
     }
+
     .card {
       width: calc(100% / 3);
     }
-    .footNav > li > a {
+
+    .footNav>li>a {
       font-size: 12px;
       letter-spacing: -1.2px;
     }
+
     .boxMenu .animalImg {
       width: 71%;
     }
+
     .textBox {
       top: 0%;
     }
@@ -1365,55 +1412,61 @@ footer .innerBox {
       width: 25px;
     }
 
-    .rightGnb > li:first-child {
+    .rightGnb>li:first-child {
       display: none;
     }
 
     .rightGnb a {
       font-size: 10px;
     }
+
     .hamBox {
       top: 2%;
     }
+
     #nav:hover .sub {
       width: 100%;
     }
 
-    .innerBox #nav > li {
+    .innerBox #nav>li {
       width: 100%;
     }
-    #nav > li > a {
+
+    #nav>li>a {
       padding: 0;
     }
+
     #mainBanner .arrow1,
     #mainBanner .arrow2 {
       width: 0px;
     }
 
-    .subBanner > .innerBox > .subBanner01,
-    .subBanner > .innerBox > .subBanner02 {
+    .subBanner>.innerBox>.subBanner01,
+    .subBanner>.innerBox>.subBanner02 {
       width: 100%;
       height: 150px;
     }
 
-    .subBanner > .innerBox > .subBanner03,
-    .subBanner > .innerBox > .subBanner04 {
+    .subBanner>.innerBox>.subBanner03,
+    .subBanner>.innerBox>.subBanner04 {
       height: 150px;
       width: 48.5%;
       margin-top: -10px;
       word-break: keep-all;
     }
-    .subBanner > .innerBox > .subBanner03 h3,
-    .subBanner > .innerBox > .subBanner04 h3 {
+
+    .subBanner>.innerBox>.subBanner03 h3,
+    .subBanner>.innerBox>.subBanner04 h3 {
       font-size: 17px;
     }
-    .subBanner01 > img {
+
+    .subBanner01>img {
       width: 40%;
       bottom: 0;
       left: 60%;
     }
 
-    .subBanner02 > img {
+    .subBanner02>img {
       width: 35%;
       right: 0;
     }
@@ -1423,8 +1476,8 @@ footer .innerBox {
       font-size: 30px;
     }
 
-    .findWrap > span,
-    .adoptWrap > span {
+    .findWrap>span,
+    .adoptWrap>span {
       font-size: 17px;
     }
 
@@ -1432,103 +1485,133 @@ footer .innerBox {
     .adoptWrap .adoptButton {
       margin-top: 20px;
     }
+
     .adoptWrapSubText h3 {
       font-size: 42px;
       line-height: 50px;
     }
+
     .adoptWrapSubText p {
       font-size: 20px;
     }
+
     .adoptWrapSubText div {
       font-size: 13px;
       width: 120px;
       height: 40px;
       margin: 60px 0 30px;
     }
+
     .card {
       width: calc(100% / 2.5);
     }
+
     .boxMenu .animalImg {
       width: 100%;
       margin-top: 10px;
     }
-    .boxMenu .freMenuBox > p > strong {
+
+    .boxMenu .freMenuBox>p>strong {
       font-size: 30px;
     }
-    .boxMenu .freMenuBox > p {
+
+    .boxMenu .freMenuBox>p {
       font-size: 16px;
     }
-    .boxMenu .freMenuBox > span {
+
+    .boxMenu .freMenuBox>span {
       font-size: 14px;
     }
+
     .boxMenu .freMenuSub {
       margin-top: 20px;
     }
+
     .search {
       width: 70px;
     }
+
     .text {
       width: 70px;
     }
+
     .cat_dog {
       width: 70px;
     }
-    .freMenuSub > li > p {
+
+    .freMenuSub>li>p {
       font-size: 15px;
     }
-    .shelterWrap > .innerBox {
+
+    .shelterWrap>.innerBox {
       height: 100%;
     }
+
     .shelterWrap .arrow {
       display: none;
     }
-    .shelterWrap > .innerBox > div {
+
+    .shelterWrap>.innerBox>div {
       margin-top: 10px;
     }
+
     .shelterList li {
       padding: 14px;
       width: 44%;
       margin-top: 25px;
     }
+
     .shelterList li a {
       font-size: 17px;
     }
+
     .shelterList li span {
       font-size: 12px;
       word-break: break-all;
       letter-spacing: -0.3px;
     }
+
     .footTop .footNav {
       width: 100%;
     }
-    .footNav > li {
+
+    .footNav>li {
       display: inline-block;
     }
-    .footNav > li > a {
+
+    .footNav>li>a {
       font-size: 11px;
       letter-spacing: -0.5px;
     }
+
     .footBottom .logo2 {
       bottom: 12%;
     }
-    .footBottom .logo2 > a > img {
+
+    .footBottom .logo2>a>img {
       width: 160px;
     }
+
     .footBottom address .leftAddress {
       padding-left: 5px;
     }
+
     .footBottom address .leftAddress p {
       font-size: 13px;
     }
+
     .footBottom address .leftAddress p:nth-child(3) {
       margin-bottom: -20px;
     }
+
     .footBottom address .leftAddress span {
       font-size: 12px;
     }
+
     .footBottom address .rightAddress {
       right: 2%;
     }
+
     .footBottom .rightAddress img {
       width: 25px;
     }
